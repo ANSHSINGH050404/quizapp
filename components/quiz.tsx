@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { questions } from "@/app/data/questions";
-import { cn } from "@/lib/utils"; // optional: for className merging
+import { cn } from "@/lib/utils";
 
 export default function QuizApp() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
